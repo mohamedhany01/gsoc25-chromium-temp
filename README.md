@@ -26,7 +26,7 @@
 ## Project Overview
 
 <!-- markdownlint-disable MD033 -->
-<a href="https://summerofcode.withgoogle.com/">
+<a href="https://www.chromium.org/Home/">
   <img src="assets/chromium.svg" alt="Chromium" width="120"/>
 </a>
 <br><br>
