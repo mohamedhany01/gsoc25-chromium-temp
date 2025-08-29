@@ -23,6 +23,24 @@
 
 ---
 
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Work Completed](#work-completed)
+  - [Deliverables & Status](#deliverables--status)
+  - [Why it matters](#why-it-matters)
+- [Challenges & Lessons Learned](#challenges--lessons-learned)
+  - [Challenges](#challenges)
+  - [Lessons Learned](#lessons-learned)
+- [Acknowledgements](#acknowledgements)
+- [Resources](#resources)
+  - [Specifications & Standards](#specifications--standards)
+  - [Chromium & Performance Engineering](#chromium--performance-engineering)
+  - [Tooling & User Experience Data](#tooling--user-experience-data)
+  - [Browser Internals (Deep Dive)](#browser-internals-deep-dive)
+
+---
+
 ## Project Overview
 
 <!-- markdownlint-disable MD033 -->
