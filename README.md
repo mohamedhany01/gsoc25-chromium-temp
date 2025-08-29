@@ -2,7 +2,7 @@
 
 <!-- markdownlint-disable MD033 -->
 <a href="https://summerofcode.withgoogle.com/">
-  <img src="assets/gsoc.svg" alt="GSoC" width="512"/>
+  <img src="assets/gsoc-w.svg" alt="GSoC" width="512"/>
 </a>
 <br><br>
 <!-- markdownlint-enable MD033 -->
