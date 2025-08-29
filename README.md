@@ -127,7 +127,7 @@ Cleaned up unused runtime logic for selection auto-scroll, which was already sta
 
 ### Lessons Learned
 
-- **Software & collaboration best practices:** Improved at writing clean commits, maintaining clear documentation, and handling review feedback effectively, while also sharpening skills in design docs, trade-off discussions, and clear technical communication.
+- **Software engineering & collaboration best practices:** Improved at writing clean commits, maintaining clear documentation, and handling review feedback effectively, while also sharpening skills in design docs, trade-off discussions, and clear technical communication.
 
 - **End-to-end SDLC exposure:** Worked across the full development lifecycle, from clarifying high-level, often ambiguous requirements, to adding new features, fixing bugs, optimizing performance, updating/fixing tests, refactoring legacy code, and cleaning up unused logic. This experience strengthened my ability to deal with uncertainty while still delivering reliable outcomes.
 
