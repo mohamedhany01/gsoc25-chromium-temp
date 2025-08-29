@@ -102,9 +102,9 @@ Cleaned up unused runtime logic for selection auto-scroll, which was already sta
 
 ### Why it matters
 
-* **Engineers**: More powerful tracing in [**Perfetto UI**](https://ui.perfetto.dev/) than standard DevTools.
-* **Developers**: Richer insights available in **DevTools, Lighthouse, [PageSpeed Insights](https://pagespeed.web.dev/), CrUX, and other analytics tools** used worldwide.
-* **Users**: Faster, smoother websites. Sites respond more quickly to taps, clicks, and key presses → better usability, higher engagement, and stronger search ranking.
+- **Engineers**: More powerful tracing in [**Perfetto UI**](https://ui.perfetto.dev/) than standard DevTools.
+- **Developers**: Richer insights available in **DevTools, Lighthouse, [PageSpeed Insights](https://pagespeed.web.dev/), CrUX, and other analytics tools** used worldwide.
+- **Users**: Faster, smoother websites. Sites respond more quickly to taps, clicks, and key presses → better usability, higher engagement, and stronger search ranking.
 
 ---
 
@@ -112,28 +112,28 @@ Cleaned up unused runtime logic for selection auto-scroll, which was already sta
 
 ### Challenges
 
-* **Scale of Chromium:** Navigating a codebase with millions of lines across C++, Blink, and rendering pipelines made it difficult to trace how input events flow through to responsiveness metrics.
+- **Scale of Chromium:** Navigating a codebase with millions of lines across C++, Blink, and rendering pipelines made it difficult to trace how input events flow through to responsiveness metrics.
 
-* **System-wide complexity:** INP and EventTiming span multiple subsystems (input, rendering, compositing, metrics), so changes required careful cross-component understanding rather than isolated edits.
+- **System-wide complexity:** INP and EventTiming span multiple subsystems (input, rendering, compositing, metrics), so changes required careful cross-component understanding rather than isolated edits.
 
-* **Ensuring reliability:** New tracing and observability features had to be both accurate and low-overhead, balancing developer visibility with end-user performance.
+- **Ensuring reliability:** New tracing and observability features had to be both accurate and low-overhead, balancing developer visibility with end-user performance.
 
-* **Maintaining stability:** Cleaning up legacy paths and simplifying event tracking demanded caution to avoid regressions for accessibility or edge cases.
-* **Heavy build process:** Even with [GOMA](https://chromium.googlesource.com/infra/goma/client/+/ac9d3edd78849599d1fa5db65992e768ba0568ac/README.md) and distributed builds in the cloud, full Chromium builds were long and resource-intensive, slowing down iteration cycles.
+- **Maintaining stability:** Cleaning up legacy paths and simplifying event tracking demanded caution to avoid regressions for accessibility or edge cases.
+- **Heavy build process:** Even with [GOMA](https://chromium.googlesource.com/infra/goma/client/+/ac9d3edd78849599d1fa5db65992e768ba0568ac/README.md) and distributed builds in the cloud, full Chromium builds were long and resource-intensive, slowing down iteration cycles.
 
-* **Challenging debugging workflow:** Debugging required a combination of tracing, Perfetto UI, DevTools, and custom instrumentation, often across multiple iterations to isolate subtle timing issues.
+- **Challenging debugging workflow:** Debugging required a combination of tracing, Perfetto UI, DevTools, and custom instrumentation, often across multiple iterations to isolate subtle timing issues.
 
-* **Long review process:** Because these were **critical, user-facing performance metrics**, every change required multiple senior reviews, detailed justifications, and iteration before acceptance.
+- **Long review process:** Because these were **critical, user-facing performance metrics**, every change required multiple senior reviews, detailed justifications, and iteration before acceptance.
 
 ### Lessons Learned
 
-* **Software & collaboration best practices:** Improved at writing clean commits, maintaining clear documentation, and handling review feedback effectively, while also sharpening skills in design docs, trade-off discussions, and clear technical communication.
+- **Software & collaboration best practices:** Improved at writing clean commits, maintaining clear documentation, and handling review feedback effectively, while also sharpening skills in design docs, trade-off discussions, and clear technical communication.
 
-* **End-to-end SDLC exposure:** Worked across the full development lifecycle, from clarifying high-level, often ambiguous requirements, to adding new features, fixing bugs, optimizing performance, updating/fixing tests, refactoring legacy code, and cleaning up unused logic. This experience strengthened my ability to deal with uncertainty while still delivering reliable outcomes.
+- **End-to-end SDLC exposure:** Worked across the full development lifecycle, from clarifying high-level, often ambiguous requirements, to adding new features, fixing bugs, optimizing performance, updating/fixing tests, refactoring legacy code, and cleaning up unused logic. This experience strengthened my ability to deal with uncertainty while still delivering reliable outcomes.
 
-* **Browser engineering & internals:** Gained hands-on experience in a critical, complex, and niche domain where few engineers get direct exposure. Worked inside Chromium’s latency pipeline, Perfetto tracing, and Core Web Vitals, areas that directly influence web standards, SEO, and user experience for billions of users worldwide.
+- **Browser engineering & internals:** Gained hands-on experience in a critical, complex, and niche domain where few engineers get direct exposure. Worked inside Chromium’s latency pipeline, Perfetto tracing, and Core Web Vitals, areas that directly influence web standards, SEO, and user experience for billions of users worldwide.
 
-* **Learning from experts:** Benefited from close collaboration with the Chrome Speed Metrics team at Google, learning from their mentorship, design discussions, and detailed reviews. This helped me grow a stronger professional engineering mindset and higher standards for quality.
+- **Learning from experts:** Benefited from close collaboration with the Chrome Speed Metrics team at Google, learning from their mentorship, design discussions, and detailed reviews. This helped me grow a stronger professional engineering mindset and higher standards for quality.
 
 ---
 
@@ -151,26 +151,26 @@ Throughout this project, I relied on a mix of specifications, technical document
 
 ### Specifications & Standards
 
-* **Event Timing API (W3C Engineering Spec)** – [https://www.w3.org/TR/event-timing/](https://www.w3.org/TR/event-timing/)
-* **Interaction to Next Paint (INP) explainer** – [https://web.dev/articles/inp](https://web.dev/articles/inp)
-* **Core Web Vitals overview** – [https://web.dev/articles/vitals](https://web.dev/articles/vitals)
+- **Event Timing API (W3C Engineering Spec)** – [https://www.w3.org/TR/event-timing/](https://www.w3.org/TR/event-timing/)
+- **Interaction to Next Paint (INP) explainer** – [https://web.dev/articles/inp](https://web.dev/articles/inp)
+- **Core Web Vitals overview** – [https://web.dev/articles/vitals](https://web.dev/articles/vitals)
 
 ### Chromium & Performance Engineering
 
-* **Chromium Speed Metrics Team Docs** – [https://chromium.googlesource.com/chromium/src/+/main/docs/speed\_metrics/README.md](https://chromium.googlesource.com/chromium/src/+/main/docs/speed_metrics/README.md)
-* **Chromium Code Search** – [https://source.chromium.org/chromium](https://source.chromium.org/chromium)
-* **Perfetto Tracing Docs** – [https://perfetto.dev/docs/](https://perfetto.dev/docs/)
+- **Chromium Speed Metrics Team Docs** – [https://chromium.googlesource.com/chromium/src/+/main/docs/speed\_metrics/README.md](https://chromium.googlesource.com/chromium/src/+/main/docs/speed_metrics/README.md)
+- **Chromium Code Search** – [https://source.chromium.org/chromium](https://source.chromium.org/chromium)
+- **Perfetto Tracing Docs** – [https://perfetto.dev/docs/](https://perfetto.dev/docs/)
 
 ### Tooling & User Experience Data
 
-* **Chrome User Experience Report (CrUX)** – [https://developer.chrome.com/docs/crux](https://developer.chrome.com/docs/crux)
-* **Lighthouse Documentation** – [https://developer.chrome.com/docs/lighthouse](https://developer.chrome.com/docs/lighthouse)
+- **Chrome User Experience Report (CrUX)** – [https://developer.chrome.com/docs/crux](https://developer.chrome.com/docs/crux)
+- **Lighthouse Documentation** – [https://developer.chrome.com/docs/lighthouse](https://developer.chrome.com/docs/lighthouse)
 
 ### Browser Internals (Deep Dive)
 
-* **Inside look at modern web browsers (4-part series):**
+- **Inside look at modern web browsers (4-part series):**
 
-  * [Part 1](https://developer.chrome.com/blog/inside-browser-part1)
-  * [Part 2](https://developer.chrome.com/blog/inside-browser-part2)
-  * [Part 3](https://developer.chrome.com/blog/inside-browser-part3)
-  * [Part 4](https://developer.chrome.com/blog/inside-browser-part4)
+  - [Part 1](https://developer.chrome.com/blog/inside-browser-part1)
+  - [Part 2](https://developer.chrome.com/blog/inside-browser-part2)
+  - [Part 3](https://developer.chrome.com/blog/inside-browser-part3)
+  - [Part 4](https://developer.chrome.com/blog/inside-browser-part4)
