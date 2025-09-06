@@ -141,7 +141,7 @@ Cleaned up unused runtime logic for selection auto-scroll, which was already sta
 
 I am deeply grateful to my mentors **Michal Mocny, Annie Sullivan, Johannes Henkel, and Scott Haseley** for their guidance throughout this project. Michal helped me navigate the goals and codebase and provided thoughtful reviews, Annie offered valuable big-picture insights, while Johannes and Scott’s detailed reviews significantly sharpened the quality of my contributions.
 
-I also want to thank the **GSoC organizers and admins** — Sreeja, Stephanie, and Daisuke — for their constant support in making this program a smooth and rewarding experience.
+I also want to thank the **GSoC organizers and admins**: Sreeja, Stephanie, and Daisuke — for their constant support in making this program a smooth and rewarding experience.
 
 ---
 
@@ -151,26 +151,27 @@ Throughout this project, I relied on a mix of specifications, technical document
 
 ### Specifications & Standards
 
-- **Event Timing API (W3C Engineering Spec)** – [https://www.w3.org/TR/event-timing/](https://www.w3.org/TR/event-timing/)
-- **Interaction to Next Paint (INP) explainer** – [https://web.dev/articles/inp](https://web.dev/articles/inp)
-- **Core Web Vitals overview** – [https://web.dev/articles/vitals](https://web.dev/articles/vitals)
+- [Event Timing API (W3C Engineering Spec)](https://www.w3.org/TR/event-timing/)
+- [Interaction to Next Paint (INP) explainer](https://web.dev/articles/inp)
+- [Core Web Vitals overview](https://web.dev/articles/vitals)
 
 ### Chromium & Performance Engineering
 
-- **Chromium Speed Metrics Team Docs** – [https://chromium.googlesource.com/chromium/src/+/main/docs/speed\_metrics/README.md](https://chromium.googlesource.com/chromium/src/+/main/docs/speed_metrics/README.md)
-- **Chromium Code Search** – [https://source.chromium.org/chromium](https://source.chromium.org/chromium)
-- **Perfetto Tracing Docs** – [https://perfetto.dev/docs/](https://perfetto.dev/docs/)
+- [Chromium Speed Metrics Team Docs](https://chromium.googlesource.com/chromium/src/+/main/docs/speed_metrics/README.md)
+- [Chromium Code Search](https://source.chromium.org/chromium)
+- [Perfetto Tracing Docs](https://perfetto.dev/docs/)
 
 ### Tooling & User Experience Data
 
-- **Chrome User Experience Report (CrUX)** – [https://developer.chrome.com/docs/crux](https://developer.chrome.com/docs/crux)
-- **Lighthouse Documentation** – [https://developer.chrome.com/docs/lighthouse](https://developer.chrome.com/docs/lighthouse)
+- [Chrome User Experience Report (CrUX)](https://developer.chrome.com/docs/crux)
+- [Lighthouse Documentation](https://developer.chrome.com/docs/lighthouse)
 
 ### Browser Internals (Deep Dive)
 
-- **Inside look at modern web browsers (4-part series):**
+- **Inside look at modern web browsers (4-part series):** [Part 1](https://developer.chrome.com/blog/inside-browser-part1), [Part 2](https://developer.chrome.com/blog/inside-browser-part2), [Part 3](https://developer.chrome.com/blog/inside-browser-part3), [Part 4](https://developer.chrome.com/blog/inside-browser-part4)
 
-  - [Part 1](https://developer.chrome.com/blog/inside-browser-part1)
-  - [Part 2](https://developer.chrome.com/blog/inside-browser-part2)
-  - [Part 3](https://developer.chrome.com/blog/inside-browser-part3)
-  - [Part 4](https://developer.chrome.com/blog/inside-browser-part4)
+- [Digging into Interaction to Next Paint (INP)](https://www.youtube.com/watch?v=bDJB-AQDciE)
+
+- [Lessons Learned from Performance Monitoring in Chrome](https://www.youtube.com/watch?v=ctavZT87syI)
+
+- [BlinkOn Conference Videos](https://www.youtube.com/@blinkontalks/videos)
