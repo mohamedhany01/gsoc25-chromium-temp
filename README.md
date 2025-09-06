@@ -15,7 +15,7 @@
 
 **Mentors:** [Michal Mocny](mmocny@google.com), [Annie Sullivan](sullivan@google.com), [Johannes Henkel](johannes@chromium.org), [Scott Haseley](shaseley@chromium.org)
 
-**GSoC Project Page:** [Project Proposal Document](https://docs.google.com/document/d/1iDVZYM9R0dVbK9by8URSCtd3_aHA5BilpJXjJ7z4Ox0)
+**GSoC Proposal Page:** [Proposal Document](https://docs.google.com/document/d/1iDVZYM9R0dVbK9by8URSCtd3_aHA5BilpJXjJ7z4Ox0)
 
 **Topics:** Browser Engineering, Browser Internals, Web Performance, DevTools, Web Vitals, Speed Metrics
 
