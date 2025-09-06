@@ -50,11 +50,11 @@
 <br><br>
 <!-- markdownlint-enable MD033 -->
 
-Chromium, as an open-source browser that powers major browsers like Google Chrome, Microsoft Edge, and others, plays a critical role in shaping web standards and ensuring performance metrics are consistent across the web. **By advancing INP observability in Chromium, this project strengthens the ecosystem of performance tooling, directly impacting how developers optimize responsiveness and ultimately improving user experiences across billions of devices worldwide.**
+Chromium, as an open-source browser that powers major browsers like Google Chrome, Microsoft Edge, and others, plays a critical role in shaping web standards and ensuring performance metrics are consistent across the web. By advancing INP observability in Chromium, this project strengthens the ecosystem of performance tooling, directly impacting how developers optimize responsiveness and ultimately improving user experiences across billions of devices worldwide.
 
-The goal was to **report INP subparts: input delay, event processing time, and rendering delay, from the rendering side to the browser side via the Chrome User Experience Report (CrUX).** These insights are now available in tools like **DevTools, Lighthouse, and PageSpeed Insights**, helping developers analyze and improve responsiveness.
+The goal was to report INP subparts: input delay, event processing time, and rendering delay, from the rendering side to the browser side via the Chrome User Experience Report (CrUX). These insights are now available in tools like DevTools, Lighthouse, and PageSpeed Insights, helping developers analyze and improve responsiveness.
 
-**For everyday users, this means smoother, faster interactions pages respond quickly to clicks, taps, and typing, leading to frustration-free browsing.**
+For everyday users, this means smoother, faster interactions pages respond quickly to clicks, taps, and typing, leading to frustration-free browsing.
 
 ---
 
@@ -141,7 +141,7 @@ Cleaned up unused runtime logic for selection auto-scroll, which was already sta
 
 I am deeply grateful to my mentors **Michal Mocny, Annie Sullivan, Johannes Henkel, and Scott Haseley** for their guidance throughout this project. Michal helped me navigate the goals and codebase and provided thoughtful reviews, Annie offered valuable big-picture insights, while Johannes and Scott’s detailed reviews significantly sharpened the quality of my contributions.
 
-I also want to thank the **GSoC organizers and admins**: Sreeja, Stephanie, and Daisuke — for their constant support in making this program a smooth and rewarding experience.
+I also want to thank the **GSoC organizers and admins**: Sreeja, Stephanie, and Daisuke for their constant support in making this program a smooth and rewarding experience.
 
 ---
 
