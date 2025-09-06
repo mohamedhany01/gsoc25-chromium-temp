@@ -98,13 +98,13 @@ Deleted obsolete runtime checks for keyboard click handling, since the feature w
 
 Cleaned up unused runtime logic for selection auto-scroll, which was already stable and permanently enabled. This kept the codebase leaner and more sustainable for future development.
 
-**Note:** All contributions are available on [Chromium Gerrit](https://chromium-review.googlesource.com/q/owner:mohamedhyouns@gmail.com), including submitted patches, reviews, and merged changes from this project.
-
 ### Why it matters
 
 - **Engineers**: More powerful tracing in [**Perfetto UI**](https://ui.perfetto.dev/) than standard DevTools.
 - **Developers**: Richer insights available in **DevTools, Lighthouse, [PageSpeed Insights](https://pagespeed.web.dev/), CrUX, and other analytics tools** used worldwide.
 - **Users**: Faster, smoother websites. Sites respond more quickly to taps, clicks, and key presses → better usability, higher engagement, and stronger search ranking.
+
+**Note:** All contributions are available on [Chromium Gerrit](https://chromium-review.googlesource.com/q/owner:mohamedhyouns@gmail.com), including submitted patches, reviews, and merged changes from this project.
 
 ---
 
