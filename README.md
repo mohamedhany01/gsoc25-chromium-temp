@@ -137,7 +137,7 @@ Cleaned up unused runtime logic for selection auto-scroll, which was already sta
 
 ---
 
-## Acknowledgements
+## Acknowledgments
 
 I am deeply grateful to my mentors **Michal Mocny, Annie Sullivan, Johannes Henkel, and Scott Haseley** for their guidance throughout this project. Michal helped me navigate the goals and codebase and provided thoughtful reviews, Annie offered valuable big-picture insights, while Johannes and Scott’s detailed reviews significantly sharpened the quality of my contributions.
 
